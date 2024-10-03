@@ -44,6 +44,15 @@ nav a:hover {
     color: #f39c12;
 }
 
+a {
+    color: black; /* Change link color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #333; /* Optional: Change the color slightly on hover */
+    text-decoration: none; /* Keep underline removed on hover */
+}
 .hero {
     text-align: center;
     padding: 60px 20px;
