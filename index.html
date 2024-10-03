@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Lokesh Elangovan</div>
+            <div class="toggle" id="nav-toggle">&#9776;</div> <!-- Toggle button -->
+            <ul class="nav-menu" id="nav-menu"> <!-- Add an id to the menu -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a front-end Developer. Check out my work below.</p>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Lokesh, a passionate front-end developer with a keen eye for design and user experience. I specialize in building responsive, dynamic websites using HTML, CSS, and JavaScript. My goal is to create clean, efficient, and visually appealing web interfaces that provide seamless user experiences. As a quick learner and problem-solver, I am constantly expanding my skill set to stay up-to-date with the latest trends and technologies in front-end development.
+
+            I'm eager to contribute to exciting projects and bring fresh ideas to life. Let's build something amazing together!</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">React</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 50%;"></div>
+            </div>
+        </div>
+        <!-- <div class="skill">
+            <div class="skill-name">Node.js</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 70%;"></div>
+            </div>
+        </div> -->
+        <div class="skill">
+            <div class="skill-name">My SQL</div>
+            <div class="skill-bar">
+                <div class="skill-level" style="width: 60%;"></div>
+            </div>
+        </div>
+        <!-- Add more skills as needed -->
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="./Netflix_clone.png" alt="Project 1">
+                <h3>UI of Netflix Home Page</h3>
+                <p>This project features a sleek, responsive homepage designed to emulate the Netflix interface, showcasing a clean layout and visually appealing elements. Built using HTML and CSS, it highlights my skills in creating modern web designs without navigation functionality.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./Hotel Management.png" alt="Project 2">
+                <h3>Hotel Management</h3>
+                <p>I developed a fully responsive hotel management website using HTML, CSS, Bootstrap, and JavaScript. The site allows users to book hotel rooms, restaurants, resorts, and recreational activities like cricket turf,football turf, and go-karting. The design is mobile-friendly and offers an intuitive user experience.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="./Ecommerce.png" alt="Project 3">
+                <h3>Ecommerce</h3>
+                <p>Developed a fully functional eCommerce website using Blazor framework, HTML, CSS, JavaScript, and Bootstrap for the frontend. Integrated C# for backend logic and SQL Server for database management. Deployed the application using Git for version control and deployment.</p>
+            </div>
+            <!-- <div class="portfolio-item">
+                <img src="images/project4.jpg" alt="Project 4">
+                <h3>Project Title 4</h3>
+                <p>Project description goes here.</p>
+            </div> -->
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container" id="Contact">
+            <div class="contact-info">
+                <h3 style="font-weight: bold;">Contact Me</h3>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:example@gmail.com">lokeshelangovan1325@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+1234567890">+91 6374399340</a></p>
+            </div>
+    
+            <div class="social-media">
+                <!-- <h3>Follow Me</h3> -->
+                <ul>
+                    <li><a href="https://www.facebook.com/lokesh.lokeshraina.33" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://wa.me/6374399340" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/lokesh-e-37293b27a/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/lokesh_leo_3" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
